@@ -66,7 +66,7 @@ li{
   font-family: 'Oswald', sans-serif;
 }
 
-.listado{
+.galeria{
   display: inline-block;
   border-radius: 10px;
   margin: 100px 40px 10px 70px;
@@ -74,16 +74,34 @@ li{
   background-color: white;
 }
 
-#lista_1 li{
+#mesa li{
   background-color: white;
   color: black;
   font-weight: bolder;
 }
-#lista_2 li{
+#silla li{
   background-color: white;
   color: black;
   font-weight: bolder;
 }
+
+div.galeria {
+    margin: 5px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 200px;
+}
+
+div.galeria:hover {
+    border: 1px solid #777;
+}
+
+div.galeria img {
+    width: 100%;
+    height: auto;
+}
+
+
 footer {
     background-color: #000;
     padding: 0px;
